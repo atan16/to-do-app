@@ -14,9 +14,11 @@ function onReady() {
 
     var btn = document.createElement("BUTTON");
     btn.innerHTML = "Delete";
+    btn.className = "mdl-button mdl-js-button mdl-js-ripple-effect";
 
     // set the input's type to checkbox
     checkbox.type = "checkbox";
+    checkbox.className = "mdl-button mdl-js-button";
     // set the title
     newLi.textContent = title;
 
